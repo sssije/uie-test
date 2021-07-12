@@ -1,6 +1,6 @@
 import React from 'react';
-import './Nav.scss';
-import '../index.scss';
+import './index.scss';
+import '../../index.scss';
 
 const navbarList = [
   {
@@ -20,7 +20,7 @@ const navbarList = [
 
 const list = navbarList.map(item => 
   <li className="c-navbar-item">
-    <a className="navbar-item__link" href={item.url} target="_blank">{item.title}</a>
+    <a className="c-navbar-item__link" href={item.url} target="_blank">{item.title}</a>
   </li>
 );
 

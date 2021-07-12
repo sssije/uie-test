@@ -1,7 +1,7 @@
 import React from 'react';
-import amarthaLogo from '../image/logo-amartha.png';
-import './Header.scss';
-import '../index.scss';
+import amarthaLogo from '../../image/logo-amartha.png';
+import './index.scss';
+import '../../index.scss';
 
 import Nav from './Nav.jsx';
 

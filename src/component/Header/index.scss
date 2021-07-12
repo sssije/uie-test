@@ -21,3 +21,20 @@ header {
     }
   }
 }
+
+.c-navbar {
+  &-list {
+    display: flex;
+  }
+
+  &-item {
+    flex: auto;
+    padding: 0 25px;
+    &__link {
+      text-decoration: none;
+      color: #4f4f4f;
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}

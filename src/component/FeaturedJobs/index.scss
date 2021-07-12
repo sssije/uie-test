@@ -1,0 +1,45 @@
+.c-featured-jobs {
+  padding: 20px 0;
+  &-header {
+    margin-bottom: 20px;
+
+    &-link {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      color: #804099;
+    }
+  }
+
+  &-item {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 25px;
+    &-logo {
+      width: 56px;
+      height: 56px;
+      margin-right: 20px;
+      &__image {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &-body {
+      &__title {
+        font-size: 21px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 9px;
+      }
+
+      &__meta {
+        margin: 0;
+        font-size: 16px;
+        color: #bdbdbd;
+      }
+    }
+  }
+}

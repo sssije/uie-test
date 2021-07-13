@@ -7,32 +7,32 @@ import FeaturedJobsItem from './Item.jsx';
 
 const jobsList = [
   {
-    logo: 'job-1',
+    logo: '/Users/bukalapak/Personal/Test/uie-test/src/image/job-1.png',
     title: 'Executive Assistant',
     office: 'Head office',
     location: 'Jakarta',
   }, {
-    logo: 'job-2',
+    logo: '/Users/bukalapak/Personal/Test/uie-test/src/image/job-1.png',
     title: 'DevOps Manager',
     office: 'Head office',
     location: 'Jakarta',
   }, {
-    logo: 'job-3',
+    logo: '/Users/bukalapak/Personal/Test/uie-test/src/image/job-1.png',
     title: 'Senior Frontend Engineer',
     office: 'Head office',
     location: 'Jakarta',
   }, {
-    logo: 'job-4',
+    logo: '/Users/bukalapak/Personal/Test/uie-test/src/image/job-1.png',
     title: 'UI/UX Designer',
     office: 'Head office',
     location: 'Jakarta',
   }, {
-    logo: 'job-5',
+    logo: '/Users/bukalapak/Personal/Test/uie-test/src/image/job-1.png',
     title: 'Back-end Developer',
     office: 'Head office',
     location: 'Jakarta',
   }, {
-    logo: 'job-6',
+    logo: '/Users/bukalapak/Personal/Test/uie-test/src/image/job-1.png',
     title: 'Mobile Developer',
     office: 'Head office',
     location: 'Jakarta',

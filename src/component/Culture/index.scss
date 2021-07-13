@@ -1,0 +1,46 @@
+.c-culture {
+  &-list {
+    width: 45%;
+    margin-top: 64px;
+  }
+
+  &-item {
+    margin-bottom: 64px;
+    &--active {
+      .c-culture-item__title {
+        color: #804099;
+      }
+    }
+
+    &__title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #4f4f4f;
+      margin: 0;
+      margin-bottom: 16px;
+    }
+
+    &__description {
+      margin: 0;
+      font-size: 16px;
+      color: #4f4f4f;
+      line-height: 28px;
+    }
+  }
+
+  &-image {
+    width: 85%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    &-container {
+      width: 500px;
+      height: 500px;
+      background-image: url('../../image/background-culture.png');
+      position: relative;
+      margin-top: 64px;
+    }
+  }
+}

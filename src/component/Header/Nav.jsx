@@ -18,8 +18,8 @@ const navbarList = [
   }
 ];
 
-const list = navbarList.map(item => 
-  <li className="c-navbar-item">
+const list = navbarList.map((item, id) => 
+  <li key={id} className="c-navbar-item">
     <a className="c-navbar-item__link" href={item.url} target="_blank">{item.title}</a>
   </li>
 );

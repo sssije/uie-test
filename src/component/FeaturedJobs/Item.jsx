@@ -11,7 +11,7 @@ class Item extends React.Component {
       <div className="c-featured-jobs-item">
         <a href="/" className="flex-container">
           <div className="c-featured-jobs-item-logo">
-            <img src={require( `../../image/${this.props.logo}.png` )} className="c-featured-jobs-item-logo__image"/>
+            <img src={this.props.logo} className="c-featured-jobs-item-logo__image"/>
           </div>
           <div className="c-featured-jobs-item-body">
             <p className="c-featured-jobs-item-body__title">{this.props.title}</p>
